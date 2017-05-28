@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="362" started-at="2017-05-28T18:14:44Z" finished-at="2017-05-28T18:14:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="362" started-at="2017-05-28T18:14:44Z" finished-at="2017-05-28T18:14:44Z">
+      <class name="facebooksignuptest.fbSignuptst">
+        <test-method status="PASS" signature="fbFotterLinks()[pri:0, instance:facebooksignuptest.fbSignuptst@68c4039c]" name="fbFotterLinks" duration-ms="20" started-at="2017-05-28T14:14:44Z" finished-at="2017-05-28T14:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbFotterLinks -->
+        <test-method status="PASS" signature="fbSignup()[pri:0, instance:facebooksignuptest.fbSignuptst@68c4039c]" name="fbSignup" duration-ms="0" started-at="2017-05-28T14:14:44Z" finished-at="2017-05-28T14:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbSignup -->
+      </class> <!-- facebooksignuptest.fbSignuptst -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

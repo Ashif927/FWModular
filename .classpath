@@ -2,5 +2,56 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/client-combined-3.4.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/selenium-server-standalone-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/Poi/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/cssparser-0.9.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/htmlunit-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/htmlunit-core-js-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/htmlunit-driver-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/jetty-io-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/jetty-util-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/neko-htmlunit-2.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/phantomjsdriver-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/selenium-server-standalone-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/websocket-api-9.2.15.v20160210.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/websocket-api-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/websocket-client-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/websocket-common-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashif/workspace/FWModular/Jars/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
