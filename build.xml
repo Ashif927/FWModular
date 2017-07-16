@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE project []>
 
-<project name="talentTEK" default="usage" basedir=".">  
+<project name="FWModular" default="usage" basedir=".">  
 
 <!-- ========== Initialize Properties =================================== -->
     <property environment="env"/>
@@ -74,7 +74,7 @@
 
     <!-- run -->
     <target name="run" depends="compile">
-        <testng classpath="${test.classpath}:${test.dest}" suitename="talentTEK">	
+        <testng classpath="${test.classpath}:${test.dest}" suitename="FWModular">	
               	<xmlfileset dir="${ws.home}" includes="testng.xml"/>
         	
    
