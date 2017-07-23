@@ -2,20 +2,12 @@
 <testng-results skipped="2" failed="0" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="74" started-at="2017-07-09T17:25:13Z" finished-at="2017-07-09T17:25:13Z">
+  <suite name="Suite" duration-ms="38" started-at="2017-07-16T14:14:20Z" finished-at="2017-07-16T14:14:20Z">
     <groups>
     </groups>
-    <test name="Test 2" duration-ms="74" started-at="2017-07-09T17:25:13Z" finished-at="2017-07-09T17:25:13Z">
+    <test name="Test 2" duration-ms="38" started-at="2017-07-16T14:14:20Z" finished-at="2017-07-16T14:14:20Z">
       <class name="classTest.annotationTest">
-        <test-method status="PASS" signature="logOutTest()[pri:3, instance:classTest.annotationTest@d7b1517]" name="logOutTest" duration-ms="1" started-at="2017-07-09T13:25:13Z" finished-at="2017-07-09T13:25:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutTest -->
-        <test-method status="PASS" signature="logInTest()[pri:1, instance:classTest.annotationTest@d7b1517]" name="logInTest" duration-ms="0" started-at="2017-07-09T13:25:13Z" finished-at="2017-07-09T13:25:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInTest -->
-        <test-method status="SKIP" signature="skipTest()[pri:4, instance:classTest.annotationTest@d7b1517]" name="skipTest" duration-ms="1" started-at="2017-07-09T13:25:13Z" finished-at="2017-07-09T13:25:13Z">
+        <test-method status="SKIP" signature="skipTest()[pri:4, instance:classTest.annotationTest@2a18f23c]" name="skipTest" duration-ms="0" started-at="2017-07-16T10:14:20Z" finished-at="2017-07-16T10:14:20Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Function is not delivered by Dev Yet]]>
@@ -52,17 +44,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipTest -->
-        <test-method status="PASS" signature="changePasswordTest()[pri:2, instance:classTest.annotationTest@d7b1517]" name="changePasswordTest" duration-ms="0" started-at="2017-07-09T13:25:13Z" depends-on-methods="classTest.annotationTest.logInTest" finished-at="2017-07-09T13:25:13Z">
+        <test-method status="PASS" signature="logInTest()[pri:1, instance:classTest.annotationTest@2a18f23c]" name="logInTest" duration-ms="0" started-at="2017-07-16T10:14:20Z" finished-at="2017-07-16T10:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="logOutTest()[pri:3, instance:classTest.annotationTest@2a18f23c]" name="logOutTest" duration-ms="0" started-at="2017-07-16T10:14:20Z" finished-at="2017-07-16T10:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method status="PASS" signature="changePasswordTest()[pri:2, instance:classTest.annotationTest@2a18f23c]" name="changePasswordTest" duration-ms="0" started-at="2017-07-16T10:14:20Z" depends-on-methods="classTest.annotationTest.logInTest" finished-at="2017-07-16T10:14:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordTest -->
       </class> <!-- classTest.annotationTest -->
       <class name="classTest.dependsOn">
-        <test-method status="PASS" signature="logInTest()[pri:0, instance:classTest.dependsOn@6adca536]" name="logInTest" duration-ms="24" started-at="2017-07-09T13:25:13Z" finished-at="2017-07-09T13:25:13Z">
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:classTest.dependsOn@6adca536]" name="logInTest" duration-ms="5" started-at="2017-07-16T10:14:20Z" finished-at="2017-07-16T10:14:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method status="SKIP" signature="skipTest()[pri:0, instance:classTest.dependsOn@6adca536]" name="skipTest" duration-ms="0" started-at="2017-07-09T13:25:13Z" finished-at="2017-07-09T13:25:13Z">
+        <test-method status="PASS" signature="changePasswordTest()[pri:0, instance:classTest.dependsOn@6adca536]" name="changePasswordTest" duration-ms="0" started-at="2017-07-16T10:14:20Z" depends-on-methods="classTest.dependsOn.logInTest" finished-at="2017-07-16T10:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordTest -->
+        <test-method status="SKIP" signature="skipTest()[pri:0, instance:classTest.dependsOn@6adca536]" name="skipTest" duration-ms="0" started-at="2017-07-16T10:14:20Z" finished-at="2017-07-16T10:14:20Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Function is not delivered by Dev Yet]]>
@@ -99,11 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipTest -->
-        <test-method status="PASS" signature="changePasswordTest()[pri:0, instance:classTest.dependsOn@6adca536]" name="changePasswordTest" duration-ms="1" started-at="2017-07-09T13:25:13Z" depends-on-methods="classTest.dependsOn.logInTest" finished-at="2017-07-09T13:25:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changePasswordTest -->
-        <test-method status="PASS" signature="logOutTest()[pri:0, instance:classTest.dependsOn@6adca536]" name="logOutTest" duration-ms="0" started-at="2017-07-09T13:25:13Z" depends-on-methods="classTest.dependsOn.changePasswordTest" finished-at="2017-07-09T13:25:13Z">
+        <test-method status="PASS" signature="logOutTest()[pri:0, instance:classTest.dependsOn@6adca536]" name="logOutTest" duration-ms="0" started-at="2017-07-16T10:14:20Z" depends-on-methods="classTest.dependsOn.changePasswordTest" finished-at="2017-07-16T10:14:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutTest -->
